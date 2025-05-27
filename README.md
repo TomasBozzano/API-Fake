@@ -42,17 +42,19 @@ precio y categoria se utilizan solo para el POST
   image: 'https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg',
   rating: { rate: 4.7, count: 500 }
 }
+```
  
  ❯ npm run start post products T-shirt-Rex 300 remeras  
 
  Operation: POST
- ```json
+```json
 { 
   id: 21, 
   title: 'T-shirt-Rex', 
   price: '300', 
   category: 'remeras' 
 }
+```
 
 ## 📂 Estructura del Proyecto
 
