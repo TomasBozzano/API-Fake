@@ -47,4 +47,7 @@ switch (operation) {
             .then(data => console.log(data))
             .catch(error => console.error('Error:', error));
         break;
+    default:
+        console.error('Operaciones invalidas. Use GET, POST, o DELETE.');
+        break;
 }
