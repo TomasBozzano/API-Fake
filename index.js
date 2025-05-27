@@ -7,7 +7,7 @@ const [,, ...args] = argv;
 
 
 //saco los datos de argv
-//primero la operación, luego la ruta y por último el número
+//primero la operación, luego la ruta y por último la información adicional
 
 const operation = args[0].toUpperCase();
 const path = args[1];

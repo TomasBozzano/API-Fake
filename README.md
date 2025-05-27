@@ -23,7 +23,7 @@ No se requiere instalación adicional. Solo necesitas tener Node.js instalado en
 
 Para ejecutar el programa, utiliza el siguiente comando desde la terminal:
 
-npm run start <operación> <tituloONumero> <precio> <categoria>
+npm run start `operación` `título o número` `precio` `categoria`
 
 precio y categoria se utilizan solo para el POST
 
@@ -56,7 +56,7 @@ precio y categoria se utilizan solo para el POST
   "id": 21, 
   "title": "T-shirt-Rex", 
   "price": "300", 
-  "category": "remeras"' 
+  "category": "remeras"
 }
 ```
 
