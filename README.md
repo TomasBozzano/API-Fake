@@ -32,6 +32,7 @@ precio y categoria se utilizan solo para el POST
  ❯ npm run start get products 3
 
  Operation: GET
+```json
  {
   id: 3,
   title: 'Mens Cotton Jacket',
@@ -45,7 +46,13 @@ precio y categoria se utilizan solo para el POST
  ❯ npm run start post products T-shirt-Rex 300 remeras  
 
  Operation: POST
-{ id: 21, title: 'T-shirt-Rex', price: '300', category: 'remeras' }
+ ```json
+{ 
+  id: 21, 
+  title: 'T-shirt-Rex', 
+  price: '300', 
+  category: 'remeras' 
+}
 
 ## 📂 Estructura del Proyecto
 
